@@ -35,13 +35,41 @@ class HomeView extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 100,
+              height: 50,
             ),
             Center(
               child: Column(
                 children: [
                   Text(
                     model.userName,
+                    style: TextStyle(fontSize: 20),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text(
+                    model.name,
+                    style: TextStyle(fontSize: 20),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text(
+                    model.email,
+                    style: TextStyle(fontSize: 20),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text(
+                    model.phone,
+                    style: TextStyle(fontSize: 20),
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Text(
+                    model.website,
                     style: TextStyle(fontSize: 20),
                   ),
                 ],
